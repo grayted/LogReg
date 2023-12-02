@@ -15,6 +15,7 @@
         android:theme="@style/Theme.VeggieNeighbors"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
@@ -25,6 +26,13 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBBUJVZKT-QJuVKeQx6DfOuJMBht1O3H48" />
 
+=======
+            android:name=".GBDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetails"
+            android:exported="false" />
+>>>>>>> 99c1d43f41c40094774e97578901dd6cc60d7084
         <activity
             android:name=".NaviActivity"
             android:exported="true">
